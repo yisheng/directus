@@ -23,6 +23,28 @@
 		<link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#263238" />
 		<title>Loading&hellip;</title>
 		<style id="custom-css"></style>
+		<script>    
+			(function(win, export_obj) {
+				win['TeaAnalyticsObject'] = export_obj;
+				if (!win[export_obj]) {
+					function _collect() {
+						_collect.q.push(arguments);
+					}
+					_collect.q = _collect.q || [];
+					win[export_obj] = _collect;            
+				}
+				win[export_obj].l = +new Date();
+			})(window, 'collectEvent');
+		</script>
+		<script async src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/collect-autotrack-rangers.js"></script>
+		<script>
+			window.collectEvent('init', { 
+				app_id:424025,
+			channel: 'cn', 
+				autotrack: false  //默认关闭，需要热力图及圈选功能可开启 - ABC
+			});
+			window.collectEvent('start')
+		</script>
 	</head>
 	<body class="auto">
 		<noscript>
