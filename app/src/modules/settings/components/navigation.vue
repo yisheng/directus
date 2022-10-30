@@ -18,7 +18,7 @@
 
 		<v-list-item href="https://www.canglandata.com/" class="version">
 			<v-list-item-content>
-				<v-text-overflow class="version" :text="`Directus ${version}`" />
+				<v-text-overflow class="version" :text="`沧蓝 V${version}`" />
 			</v-list-item-content>
 		</v-list-item>
 	</v-list>
