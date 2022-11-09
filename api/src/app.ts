@@ -138,7 +138,7 @@ export default async function createApp(): Promise<express.Application> {
 	app.use(expressLogger);
 
 	app.use((_req, res, next) => {
-		res.setHeader('X-Powered-By', 'Directus');
+		res.setHeader('X-Powered-By', 'Canglan');
 		next();
 	});
 
