@@ -16,6 +16,7 @@ switch (command) {
 
 function updateVersions(newVersion) {
     const folders = [
+        './',
         './api/',
         './app/',
         './packages/create-directus-extension/',
@@ -40,5 +41,5 @@ function updateVersions(newVersion) {
                 console.log(filePath + ' - done');
             }
         });
-    })
+    });
 }
