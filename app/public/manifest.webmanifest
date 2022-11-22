@@ -1,8 +1,8 @@
 {
-	"name": "Directus",
-	"short_name": "Directus",
-	"theme_color": "#263238",
-	"background_color": "#263238",
+	"name": "沧蓝数据引擎",
+	"short_name": "沧蓝数据引擎",
+	"theme_color": "#3761F4",
+	"background_color": "#3761F4",
 	"display": "standalone",
 	"start_url": "./",
 	"scope": "."
