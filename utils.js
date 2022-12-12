@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Usage: node ./utils.js 9.21.1
+// Usage: node ./utils.js updateVersions 9.21.1
 
 const command = process.argv[2];
 const params = process.argv[3];
